@@ -1,0 +1,211 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "cohort": 2020
+    },
+    {
+      "id": 2,
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "cohort": 2021
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "cohort": 2022
+    },
+    {
+      "id": 4,
+      "name": "Eva Brown",
+      "email": "eva.brown@example.com",
+      "cohort": 2020
+    },
+    {
+      "id": 5,
+      "name": "David Lee",
+      "email": "david.lee@example.com",
+      "cohort": 2021
+    },
+    {
+      "id": 6,
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson@example.com",
+      "cohort": 2022
+    },
+    {
+      "id": 7,
+      "name": "James Smith",
+      "email": "james.smith@example.com",
+      "cohort": 2020
+    },
+    {
+      "id": 8,
+      "name": "Linda Davis",
+      "email": "linda.davis@example.com",
+      "cohort": 2021
+    },
+    {
+      "id": 9,
+      "name": "Michael White",
+      "email": "michael.white@example.com",
+      "cohort": 2022
+    },
+    {
+      "id": 10,
+      "name": "Emily Taylor",
+      "email": "emily.taylor@example.com",
+      "cohort": 2020
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Introduction to Functions",
+      "body": "In this post, we'll discuss the basics of functions.",
+      "date": "2023-09-01",
+      "userId": 1,
+      "topicId": 1
+    },
+    {
+      "id": 2,
+      "title": "Asynchronous Programming in JavaScript",
+      "body": "Learn how to work with asynchronous code.",
+      "date": "2023-09-02",
+      "userId": 2,
+      "topicId": 2
+    },
+    {
+      "id": 3,
+      "title": "Object-Oriented Programming Concepts",
+      "body": "Explore OOP principles and concepts.",
+      "date": "2023-09-03",
+      "userId": 3,
+      "topicId": 3
+    },
+    {
+      "id": 4,
+      "title": "Advanced JavaScript Techniques",
+      "body": "Discover advanced JavaScript coding techniques.",
+      "date": "2023-09-04",
+      "userId": 4,
+      "topicId": 1
+    },
+    {
+      "id": 5,
+      "title": "Introduction to Promises",
+      "body": "Learn about promises in JavaScript.",
+      "date": "2023-09-05",
+      "userId": 5,
+      "topicId": 2
+    },
+    {
+      "id": 6,
+      "title": "Web Development Best Practices",
+      "body": "Tips for building efficient web applications.",
+      "date": "2023-09-06",
+      "userId": 6,
+      "topicId": 3
+    },
+    {
+      "id": 7,
+      "title": "Coding Challenges for Practice",
+      "body": "Solve coding challenges to improve your skills.",
+      "date": "2023-09-07",
+      "userId": 7,
+      "topicId": 1
+    },
+    {
+      "id": 8,
+      "title": "Concurrency in Python",
+      "body": "Understanding concurrent programming in Python.",
+      "date": "2023-09-08",
+      "userId": 8,
+      "topicId": 2
+    },
+    {
+      "id": 9,
+      "title": "Data Structures Explained",
+      "body": "A deep dive into various data structures.",
+      "date": "2023-09-09",
+      "userId": 9,
+      "topicId": 3
+    },
+    {
+      "id": 10,
+      "title": "Working with RESTful APIs",
+      "body": "Master the art of working with RESTful APIs.",
+      "date": "2023-09-10",
+      "userId": 10,
+      "topicId": 1
+    },
+    {
+      "id": 11,
+      "title": "Understanding Recursion",
+      "body": "Learn the concept of recursion in programming.",
+      "date": "2023-09-11",
+      "userId": 1,
+      "topicId": 1
+    },
+    {
+      "id": 12,
+      "title": "Handling Exceptions in Python",
+      "body": "Best practices for exception handling in Python.",
+      "date": "2023-09-12",
+      "userId": 2,
+      "topicId": 6
+    },
+    {
+      "id": 13,
+      "title": "Web Security Essentials",
+      "body": "Important considerations for securing web applications.",
+      "date": "2023-09-13",
+      "userId": 3,
+      "topicId": 5
+    },
+    {
+      "id": 14,
+      "title": "Introduction to Databases",
+      "body": "Getting started with relational databases.",
+      "date": "2023-09-14",
+      "userId": 4,
+      "topicId": 4
+    },
+    {
+      "id": 15,
+      "title": "Machine Learning Basics",
+      "body": "An overview of machine learning algorithms.",
+      "date": "2023-09-15",
+      "userId": 5,
+      "topicId": 6
+    }
+  ],
+  "postLikes": [
+    { "id": 1, "userId": 1, "postId": 1 },
+    { "id": 2, "userId": 2, "postId": 1 },
+    { "id": 3, "userId": 3, "postId": 2 },
+    { "id": 4, "userId": 4, "postId": 3 },
+    { "id": 5, "userId": 5, "postId": 3 },
+    { "id": 6, "userId": 6, "postId": 4 },
+    { "id": 7, "userId": 7, "postId": 5 },
+    { "id": 8, "userId": 8, "postId": 6 },
+    { "id": 9, "userId": 9, "postId": 7 },
+    { "id": 10, "userId": 10, "postId": 8 },
+    { "id": 11, "userId": 1, "postId": 11 },
+    { "id": 12, "userId": 2, "postId": 12 },
+    { "id": 13, "userId": 3, "postId": 13 },
+    { "id": 14, "userId": 4, "postId": 14 },
+    { "id": 15, "userId": 5, "postId": 15 }
+  ],
+  "topics": [
+    { "id": 1, "name": "Functions" },
+    { "id": 2, "name": "Asynchronous Programming" },
+    { "id": 3, "name": "Object-Oriented Programming" },
+    { "id": 4, "name": "Advanced Techniques" },
+    { "id": 5, "name": "Web Development" },
+    { "id": 6, "name": "Python Programming" }
+  ]
+}
